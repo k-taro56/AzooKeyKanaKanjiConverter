@@ -15,9 +15,9 @@ jobs:
         os: [windows-latest]
       fail-fast: false
     steps:
-    - uses: k-taro56/setup-swift@5-8-1
+    - uses: k-taro56/setup-swift@main
       with:
-        swift-version: 5.8.1
+        swift-version: 5.9
     - uses: actions/checkout@v4
       with:
         submodules: true
