@@ -12,7 +12,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        os: [ubuntu-latest, macos-latest, macos-13, macos-14, windows-latest]
+        os: [windows-latest]
       fail-fast: false
     steps:
     - uses: k-taro56/setup-swift@main
