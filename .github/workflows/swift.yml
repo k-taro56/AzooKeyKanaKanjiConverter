@@ -17,7 +17,7 @@ jobs:
     steps:
     - uses: k-taro56/setup-swift@main
       with:
-        swift-version: 5.9.2
+        swift-version: 5.9
     - uses: actions/checkout@v4
       with:
         submodules: true
