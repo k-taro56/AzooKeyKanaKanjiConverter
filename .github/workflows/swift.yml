@@ -15,7 +15,7 @@ jobs:
         os: [ubuntu-latest, macos-latest, macos-13, macos-14, windows-latest]
       fail-fast: false
     steps:
-    - uses: k-taro56/setup-swift@v1
+    - uses: k-taro56/setup-swift@main
       with:
         swift-version: 5.9.2
     - uses: actions/checkout@v4
