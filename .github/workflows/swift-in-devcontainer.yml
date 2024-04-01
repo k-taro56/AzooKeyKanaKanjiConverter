@@ -5,8 +5,11 @@ on:
 
 jobs:
   build:
-    name: Swift on ubuntu-latest
-    runs-on: ubuntu-latest
+    name: Swift on ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
 
     steps:
     - name: Checkout
